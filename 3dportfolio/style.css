@@ -1,0 +1,36 @@
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+main {
+  position: absolute;
+  color: #ffffff;
+  font-size: 2rem;
+  font-family: elevon, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  width: 100vw;
+  z-index: 99;
+  margin: 0 auto;
+  padding: 120px 0px;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+header {
+  background: #030303;
+  grid-column: 2 / span 5;
+  font-size: 2.5rem;
+  padding:2rem;
+  margin-bottom: 2rem;
+}
+
+section {
+  grid-column: 4 / 8;
+  padding: 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: 40rem;
+  background-color: rgba(255,255,255,0.2)
+}
